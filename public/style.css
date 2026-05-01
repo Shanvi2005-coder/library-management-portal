@@ -1,0 +1,87 @@
+  /* General Page Style */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 20px;
+  color: #333;
+}
+
+/* Headings */
+h2 {
+  background: #2c3e50;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+/* Input Fields */
+input {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #3498db;
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+/* Delete Button */
+button.delete {
+  background: #e74c3c;
+}
+
+button.delete:hover {
+  background: #c0392b;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background: white;
+}
+
+/* Table Head */
+th {
+  background: #34495e;
+  color: white;
+  padding: 10px;
+}
+
+/* Table Cells */
+td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Table Hover */
+tr:hover {
+  background: #f1f1f1;
+}
+
+/* Section spacing */
+section {
+  margin-bottom: 30px;
+}
+
+/* Container feel */
+body {
+  max-width: 1000px;
+  margin: auto;
+}
